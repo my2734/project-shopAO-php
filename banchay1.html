@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.webp" type="image/x-icon" sizes="16x16">
+    <title>Document</title>
+</head>
+<body>
+    <!-- menu -->
+    <div class="container-fluid header-menu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light menu-header">
+            <div class="container">
+              <a class="navbar-brand" href="./index.html">
+                  <div class="header__logo">
+                    <img src="./assets/img/logo_icon-02_f309f104a56745dea7490b8dc234f8cb.webp" alt="">
+                  </div>
+                  
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link nav-link--css active" aria-current="page" style="color: #000;" href="./index.html">Trang chủ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-link--css" style="color: #000;" href="./index.html#sanpham">Sản phẩm</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-link--css" style="color: #000;" href="./gioithieu.html">Giới thiệu</a>
+                  </li>
+                  <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu sub_menu--display" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li> -->
+                  
+                </ul>
+
+                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-dangnhap">
+                  
+                  <li class="nav-item ">
+                    <a class="nav-link  text-bold" style="color: #000;" href="./dangnhap.html">Đăng nhập</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-bold" style="color: #000;" href="./dangky.html">Đăng ký</a>
+                  </li>
+                  <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu sub_menu--display" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li> -->
+                  
+                </ul>
+
+
+               
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+    </div>
+    
+    <!-- end menu -->
+   
+    <!-- content  -->
+    <div class="container-fluid mt-94 background-color-body pt-40 pb-40">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-12 col-12">
+                    <div class="container-fluid p-0">
+                        <div class="row">
+                            <div class="grid__1-9">
+                                <div class="grid__1-9-item">
+                                    <ul class="list_img-product  pl-0">
+                                        <li class="item_img-product mt8px">
+                                            <img id="km_11" onclick="changImg('km_11','main_img')" class="full-widtd list-img" src="./assets/img/list_bc/bc_1/bc_11.webp" alt="">
+                                        </li>
+                                        <li class="item_img-product mt8px">
+                                            <img id="km_12" onclick="changImg('km_12','main_img')" class="full-widtd list-img" src="./assets/img/list_bc/bc_1/bc_12.webp" alt="">
+                                        </li>
+                                        <li class="item_img-product mt8px">
+                                            <img id="km_13" onclick="changImg('km_13','main_img')" class="full-widtd list-img" src="./assets/img/list_bc/bc_1/bc_13.webp" alt="">
+                                        </li>
+                                        <li class="item_img-product mt8px">
+                                            <img id="km_14" onclick="changImg('km_14','main_img')" class="full-widtd list-img" src="./assets/img/list_bc/bc_1/bc_14.webp" alt="">
+                                        </li>
+                                        <li class="item_img-product mt8px">
+                                            <img id="km_15" onclick="changImg('km_15','main_img')" class="full-widtd list-img" src="./assets/img/list_bc/bc_1/bc_15.webp" alt="">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="grid__1-9-item">
+                                    <div class="main_im-product">
+                                        <img class="full-widtd" id="main_img" src="./assets/img/list_km/km_2/km_21.webp" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="col-md-7 col-sm-12 col-12">
+                    <h1 class="grid_4-6-item-name">Rainbow Essential tee</h2>
+                        <p class="font16"><span class="font_strong">Thương hiệu:</span> khác | <span class="font_strong">Loại:</span> Còn hàng</p>
+                        <p class="font16 margin20 text-bold" style="color: red"> 99,000 <u>đ</u> <strike style="color: rgb(160, 154, 154)">350.000 <u>đ</u></strike> </p>
+                        <div class="section__top_time-sale test mt8px">
+                            <span class="section_top-time-text line-height-48">
+                                Kết thúc trong:
+                            </span>
+                            <ul class="section__top_time-list mb-0 mt-4px">
+                                <li class="setion__top_time-item">
+                                    <span class="section_top_00">00</span>
+                                </li>
+                                <li class="setion__top_time-item">
+                                    <span class="section_top_00">00</span>
+                                </li>
+                                <li class="setion__top_time-item">
+                                    <span class="section_top_00">00</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="separate"></div>
+                        <ul class="list_size" >
+                            <li class="item_size" id="sizeM" onclick="displayCheck('sizeM','check1')">
+                                M
+                                <div class="item_size-check" id="check1"> 
+                                </div>
+                            </li>
+                            <li class="item_size" id="sizeL" onclick="displayCheck('sizeL','check2')">
+                                L
+                                <div class="item_size-check" id="check2">  
+                                </div>
+                            </li>
+                            <li class="item_size" id="sizeXL" onclick="displayCheck('sizeXL','check3')">
+                                XL
+                                <div class="item_size-check" id="check3">  
+                                </div>
+                            </li>
+                        </ul>
+                        
+                        <ul class="list_dathang margin20">
+                            <li class="item_dathang">
+                                <ul class="list_icon-cong-tru">
+                                    <li class="item-cong-tru demo" onclick="sub_product('add_input-text')">
+                                        <i class="fa-solid fa-minus"></i>
+                                    </li>
+                                    <li class="item-cong-tru demo">
+                                        <input class="item-cong-tru-input" id="add_input-text" type="text" value="1">
+                                    </li>
+                                    <li class="item-cong-tru demo" onclick="add_product('add_input-text')">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item_dathang">
+                                <button class="btn1" onclick="display_modal('modal')">Thêm vào giỏ</button>
+                            </li>
+                            <li class="item_dathang">
+                                <button class="btn1">Mua hàng</button>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end content  -->
+   
+       
+    <!-- footer  -->
+    <div class="container-fluid pt-5 background-footer" >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12 mb-5">
+                    <h4 class="footer__name">heyyoustudionv</h4>
+                    <p>Heyyou! - Thương hiệu quốc dân</p>
+                    <p><i class="fa-solid fa-location-dot"></i> Hệ thống cửa hàng</p>
+                    <p>TP Hồ Chí Minh:</p>
+                    <p>- Thủ đức: 57 đường số 10, khu số 4, phường Tam Bình</p>
+                    <p>- Phú Thuận: 182/13A Lê Văn Sỹ, Phường 10</p>
+                    <p>TP Cần Thơ:</p>
+                    <p>- Ninh Kiều: 110/5/2 hẻm 5 đường Nguyễn Việt Hồng, phường An Phú</p>
+                    <p><i class="fa-solid fa-phone"></i> 1900 866632</p>
+                    <p><i class="fa-solid fa-envelope"></i> heyyoustudiovn@gmail.com</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 mb-5">
+                    <h4 class="footer__name">Liên hệ</h4>
+                    <p class="mt8px">Tìm kiếm</p>
+                    <p class="mt8px">Giới thiệu</p>
+                    <p class="mt8px">Chính sách đổi trả</p>
+                    <p class="mt8px">Chính sách bảo mật</p>
+                    <p class="mt8px">Điều khoản dịch vụ</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 mb-5">
+                    <h4 class="footer__name">Mạng xã hội</h4>
+                         <ul class="footer__list-icon" >
+                             <li class="footer__item-icon">
+                                 <i class="icon_social  fa-brands fa-facebook"></i>
+                             </li>
+                             <li class="footer__item-icon">
+                                 <i class="icon_social fa-brands fa-youtube"></i>
+                             </li>
+                             <li class="footer__item-icon">
+                                 <i class="icon_social fa-brands fa-instagram"></i>
+                             </li>
+                         </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 mb-5">
+                    <h4 class="footer__name">Đăng ký nhận khuyến mãi</h4>
+                    <p>Hãy là người đầu tiên nhận khuyến mãi lớn!</p>
+                    <input class="footer_input" type="email" name="" id="" placeholder="Email">
+                    <button class="footer_btn mt-3" type="submit">Đăng ký</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="modal" onclick="none_modal('modal')">
+        <div class="display_add-item">
+            <i class="icon_modal fa-solid fa-xmark" onclick="none_modal('modal')"></i>
+            Thêm vào giỏ hàng thành công
+            <div class="img_info-modal">
+                <img src="./assets/img/banchay/sub/img41.webp" alt="">
+                <div class="info-model">
+                    <p>ESSENTIAL TEE 1.O</p>
+                    <p style="color: red;">99.000đ</p>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <!-- end footer  -->
+    <!-- end product  -->
+    <!-- <script src="./jquery.js"></script> -->
+    <script src="./javascript.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
